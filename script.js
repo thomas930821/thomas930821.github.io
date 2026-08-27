@@ -45,7 +45,7 @@ const projects = [
     description: "Mobile application  - Unversity project",
     categories: ["other", "all"],
     tags: ["C#", "unity", "CSS"],
-    repository: "github.com/thomas930821/Cemetery_Run"
+    repository: "https://github.com/thomas930821/Cemetery_Run"
   },
 
   {
