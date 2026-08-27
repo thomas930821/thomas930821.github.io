@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Thomas Farinelli | Msc Computer Science AI & ML</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="navbar">
+    <a href="#" class="logo">TF<span>.</span></a>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+      <a href="#cv">CV</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero">
+
+      <div class="hero-content">
+
+        <p class="intro">
+          <span class="line"></span>
+          Hello, I'm Thomas
+        </p>
+
+        <h1>
+          Exploring artificial intelligence,<br>
+          curious about what comes next,<br>
+          <span>always learning.</span>
+        </h1>
+
+        <p class="description">
+          Computer Science student graduating in October with an expected
+          110/110 cum laude. I'm particularly interested in artificial intelligence
+          and its applications in healthcare and medicine, and I enjoy exploring
+          how technology can be used to solve real-world problems.
+        </p>
+
+        <div class="actions">
+          <a href="#portfolio" class="button primary">
+            Explore my portfolio
+          </a>
+
+          <a href="#contact" class="button secondary">
+            Contact me
+          </a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/thomas930821" target="_blank">
+            GitHub ↗
+          </a>
+
+          <a href="https://www.linkedin.com/in/thomas-farinelli-5a3200142/" target="_blank">
+            LinkedIn ↗
+          </a>
+        </div>
+
+      </div>
+
+
+      <div class="terminal">
+
+        <div class="terminal-header">
+
+          <div class="terminal-buttons">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <p>thomas@portfolio:~</p>
+
+        </div>
+
+
+        <div class="terminal-body">
+
+          <p>
+            <span class="prompt">$</span>
+            whoami
+          </p>
+
+          <div class="terminal-output">
+            Thomas Farinelli
+            <br>
+            Computer Scientist
+          </div>
+
+
+          <p>
+            <span class="prompt">$</span>
+            cat education.txt
+          </p>
+
+          <div class="terminal-output">
+            Computer Science
+            <br>
+            Graduation: October
+            <br>
+            Expected: 110/110 cum laude
+          </div>
+
+
+          <p>
+            <span class="prompt">$</span>
+            ls stack/
+          </p>
+
+          <div class="terminal-output stack">
+            <span>Java</span>
+            <span>Python</span>
+            <span>SQL</span>
+            <span>Spring Boot</span>
+            <span>MySQL</span>
+            <span>HTML</span>
+            <span>Git</span>
+            <span>Machine Learning</span>
+            <span>Deep Learning</span>
+          </div>
+
+
+          <p>
+            <span class="prompt">$</span>
+            status
+          </p>
+
+          <div class="terminal-output status">
+            ● Open to opportunities
+          </div>
+
+
+          <p class="cursor-line">
+            <span class="prompt">$</span>
+            <span class="cursor"></span>
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section id="about" class="section">
+      <p class="section-label">01 / ABOUT</p>
+
+      <h2>
+        Interested in artificial intelligence,
+        <span>machine learning and software development.</span>
+      </h2>
+
+      <p class="section-text">
+        I'm a Computer Science student with a strong interest in artificial
+        intelligence, machine learning and deep learning.
+
+        I enjoy learning new technologies, working on technical projects
+        and exploring how AI can be applied to different real-world contexts,
+        with a particular interest in <strong>medicine</strong>.
+
+        My goal is to keep expanding my technical skills while gaining
+        experience through challenging and meaningful projects.
+      </p>
+    </section>
+
+
+  <section id="portfolio" class="section">
+    <p class="section-label">02 / PORTFOLIO</p>
+
+    <h4>
+      Filter projects by area:
+    </h4>
+
+    <div class="project-filters">
+      <button class="filter-btn active" data-filter="all">
+        All Projects
+      </button>
+
+      <button class="filter-btn" data-filter="ml-data-science">
+        ML for Data Science
+      </button>
+
+      <button class="filter-btn" data-filter="ml-health">
+        ML for Health
+      </button>
+
+      <button class="filter-btn" data-filter="ml-data-analyst">
+        ML for Data Analyst
+      </button>
+
+      <button class="filter-btn" data-filter="deep-learning">
+        Deep Learning
+      </button>
+
+      <button class="filter-btn" data-filter="deep-learning-health">
+        Deep Learning for Health
+      </button>
+  
+      <button class="filter-btn" data-filter="other">
+        Non-AI Projects
+      </button>
+    </div>
+
+
+    <div class="projects" id="projects-container"></div>
+
+
+    <div class="empty-projects" id="empty-projects">
+      <span>&gt;_</span>
+      <p>Working in progress...</p>
+    </div>
+
+  </section>
+
+
+    <section id="contact" class="section contact">
+
+      <p class="section-label">
+        03 / CONTACT
+      </p>
+
+      <h2>
+        Have an opportunity<br>
+        worth talking about?
+      </h2>
+
+      <a
+        class="email"
+        href="mailto:thomas_farinelli@yahoo.it"
+      >
+        thomas_farinelli@yahoo.it ↗
+      </a>
+
+    </section>
+
+    <section id="cv" class="section">
+
+      <p class="section-label">
+        04 / DOWNLOAD CV
+      </p>
+
+      <h2>
+        Download my <span>Curriculum Vitae.</span>
+      </h2>
+
+      <div class="cv-buttons">
+        <a href="CV_ENG_S.pdf" class="cv-btn" download>
+          EN Academic CV ↓
+        </a>
+
+        <a href="CV_ENG.pdf" class="cv-btn" download>
+          EN Job CV ↓
+        </a>
+      </div>
+
+      <div class="cv-buttons">
+        <a href="CV_ITA_S.pdf" class="cv-btn" download>
+          IT Academic CV ↓
+        </a>
+
+        <a href="CV_ITA.pdf" class="cv-btn" download>
+          IT Job CV ↓
+        </a>
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+    <p>Thomas Farinelli</p>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
