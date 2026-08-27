@@ -4,7 +4,7 @@ const projects = [
     title: "Machine Learning for Lung Disease Diagnosis",
     description:
       "Bachelor's thesis project comparing multiple machine learning classifiers and feature-selection techniques for lung disease prediction.",
-    categories: ["ml-health", "ml-data-science", "all"],
+    categories: ["ml-health", "all"],
     tags: ["Python", "Machine Learning", "Scikit-learn", "Feature Selection", "Healthcare"],
     repository: "https://github.com/thomas930821/Lung-Disease-Diagnosis"
   },
@@ -83,7 +83,7 @@ const projects = [
   title: "Histopathological Image Classification",
   description:
     "Deep learning project comparing multiple image preprocessing techniques for lung and colon cancer classification using pretrained and from-scratch ResNet-18 models.",
-  categories: ["deep-learning-health", "deep-learning", "all"],
+  categories: ["deep-learning-health", "all"],
   tags: ["Python", "PyTorch", "ResNet-18", "Medical Imaging", "Grad-CAM"],
   repository: "https://github.com/thomas930821/Preprocessing"
   },
