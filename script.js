@@ -101,8 +101,6 @@ const projects = [
 ];
 
 
-https://github.com/thomas930821/GoodMusic
-
 
 const projectsContainer = document.getElementById("projects-container");
 const filterButtons = document.querySelectorAll(".filter-btn");
