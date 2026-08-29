@@ -9,7 +9,7 @@ const projects = [
     repository: "https://github.com/thomas930821/Lung-Disease-Diagnosis"
   },
 
-  {
+  /*{
     id: 2,
     title: "Data Preprocessing",
     description:
@@ -17,7 +17,7 @@ const projects = [
     categories: ["ml-data-science", "all"],
     tags: ["Python", "Data Science", "Preprocessing"],
     repository: "https://github.com/TUO-USERNAME/Preprocessing"
-  },
+  }, */
 
   {
     id: 3,
