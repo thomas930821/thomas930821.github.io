@@ -9,15 +9,15 @@ const projects = [
     repository: "https://github.com/thomas930821/Lung-Disease-Diagnosis"
   },
 
-  /*{
+  {
     id: 2,
-    title: "Data Preprocessing",
+    title: "Machine Learning Course Project",
     description:
-      "Data preprocessing and transformation project developed in Python.",
+      "Exploratory data analysis, preprocessing, feature transformation and regression modeling project developed in Python as part of a Machine Learning course.",
     categories: ["ml-data-science", "all"],
-    tags: ["Python", "Data Science", "Preprocessing"],
-    repository: "https://github.com/TUO-USERNAME/Preprocessing"
-  }, */
+    tags: ["Python", "Pandas", "Data Science", "Machine Learning", "EDA", "Preprocessing", "Regression" ],
+    repository: "https://github.com/thomas930821/Project_Machine_Learnign_Course"
+  },
 
   {
     id: 3,
